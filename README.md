@@ -4,11 +4,11 @@
 
 - обновляем репозиторий:
     
-$ sudo apt update
+  $ sudo apt update
 
 - затем установим несколько необходимых пакетов, которые позволяют apt использовать пакеты через HTTPS:
     
-$ apt install docker.io make dpkg-repack sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  $ apt install docker.io make dpkg-repack sudo apt install apt-transport-https ca-certificates curl software-properties-common
 
 - добавляем ключ GPG для официального репозитория Docker в нашу систему: 
     
