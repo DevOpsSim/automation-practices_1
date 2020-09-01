@@ -30,7 +30,9 @@
     
   $ sudo systemctl status docker
 
-2.) Создадим докер контейнер с именем Project_1:
+2.) Создание докер контейнера
+ 
+- созданим контейнер с именем Project_1:
     
   $ sudo docker build -t Project_1
 
