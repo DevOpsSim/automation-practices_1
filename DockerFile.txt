@@ -1,0 +1,6 @@
+FROM python:3
+COPY *.html /srv-1/
+EXPOSE 8080
+WORKDIR /srv-1
+RUN cp bugs.html index.html
+CMD python -m http.server 8080
