@@ -1,10 +1,10 @@
 .PHONY: build, deploy, remoteinstall, update
 
 USER ?= root
-TARGET ?= 127.0.0.1
+TARGET ?= localhost
 SSHPORT ?= 22
 BUILDPATH ?= .
-GIT ?= https://github.com/DevOpsSim/automation-practices
+GIT ?= https://github.com/DevOpsSim/automation-practices_1
 
 sync:
 	docker build -t howto-bugreport $(BUILDPATH)
