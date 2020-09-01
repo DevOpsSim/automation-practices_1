@@ -36,7 +36,7 @@
     
   $ sudo docker build -t Project_1
 
- - запускаем docker-контейнер:
+ - запускаем docker-контейнер: 
     
   $ sudo docker run Project_1
 
