@@ -41,7 +41,6 @@
     ``` $ sudo docker run Project_1```
 
 4.) Генерируем rsa-ключи:
-  
-    ```$ ssh-keygen -t rsa```
+  ```$ ssh-keygen -t rsa```
 
 5.)
